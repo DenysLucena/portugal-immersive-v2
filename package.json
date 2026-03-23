@@ -2,8 +2,12 @@
   "name": "portugal-immersive-v2",
   "version": "1.0.0",
   "private": true,
+  "workspaces": [
+    "web"
+  ],
   "scripts": {
-    "build": "cd web && npm install && npm run build"
+    "build": "npm run build --workspace=web",
+    "install-all": "npm install --workspaces"
   },
   "dependencies": {
     "next": "15.1.0"
