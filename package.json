@@ -1,0 +1,11 @@
+{
+  "name": "portugal-immersive-v2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd web && npm install && npm run build"
+  },
+  "dependencies": {
+    "next": "15.1.0"
+  }
+}
